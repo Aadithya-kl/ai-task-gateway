@@ -1,0 +1,19 @@
+{
+  "name": "@hexaspace/ai-task-gateway",
+  "version": "0.1.0",
+  "description": "Route AI tasks to a primary and fallback model, log every call, and stop at a daily spend limit. Includes an OpenAI-compatible image-edit provider and render-history helpers.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "test": "node --test test/*.test.ts",
+    "build": "tsc"
+  },
+  "keywords": ["ai", "llm", "image", "gateway", "fallback", "cost", "budget", "openai", "render"],
+  "license": "MIT",
+  "author": "Hexaspace",
+  "repository": { "type": "git", "url": "https://github.com/hexaspace-in/ai-task-gateway" },
+  "engines": { "node": ">=22.18" },
+  "devDependencies": { "typescript": "^5.6.0" }
+}
